@@ -65,7 +65,7 @@ print(name, age, marks)
 print("\n*************************\n")
 print("Multiple Assignment\n")
 
-x=y=z=50;
+x=y=z=50
 print(x)
 print(y)
 print(z)
