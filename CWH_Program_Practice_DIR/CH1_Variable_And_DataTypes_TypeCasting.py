@@ -23,3 +23,9 @@ print(int(StringType), type(int(StringType)))
 # int to float
 float(numberType)
 print(float(numberType), type(float(numberType)))
+
+
+
+# input() function allows the user to take input from the keyboard as a string
+a = input("Enter anything: ")   # always taking a string type value even if the number are entered
+print(type(a))  # <class 'str'>
