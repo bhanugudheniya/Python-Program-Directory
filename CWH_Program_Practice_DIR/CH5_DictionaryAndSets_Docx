@@ -1,0 +1,52 @@
+Dictionary is a collection of key-value pairs
+
+>> Syntax:
+a = {
+    "key" : "Value"
+    }
+
+>> Example:
+student = {
+           "name" : "bhanu",
+           "marks" : "100",
+           "list" : [1,2,3]
+          }
+print["key"] => prints "Value"
+a["list"]    => prints [1,2,3]
+
+>> Properties
+- unordered
+- mutable
+- indexed
+- cannot contain duplicate keys
+
+>> Methods
+- items()
+- keys()
+- update()
+- get()
+
+******
+
+Set is a collection of non repetitive elements
+It perform union, intersection, join operation like discrete mathematics
+
+>> Syntax:
+a = {'a', 'b', 'c'}
+
+>> Example:
+fruits = {'apple', 'banana', 'orange'}
+
+>> Properties
+- Unordered
+- Un indexed
+- There is no way to change items in sets
+- Cannot contains duplicate values
+
+>> Methods
+- len()
+- remove()
+- pop()
+- clear()
+- union()
+- intersection
