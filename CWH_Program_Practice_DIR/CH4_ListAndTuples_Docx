@@ -1,0 +1,38 @@
+List
+----
+using []
+mutable
+store hybrid data types values
+
+eg:
+friends = ['Bhanu', 'Ashish', 'Shobit', 'Naveen']
+
+List Indexing
+
+L1 = |7|9|bhanu|rohit|
+L1[0] = 7
+L1[1] = 9
+L1[2] = bhanu
+L1[3] = rohit
+L1[33] = Error
+
+List Slicing : L1[0:2] = [7, 9]
+
+List Methods: sort, reverse, append, insert, pop, remove, etc....
+
+**********
+
+Tuple
+-----
+using ()
+immutable
+store hybrid data types values
+
+eg:
+friends = ('Bhanu', 'Shobit', 'Ashish', 'Naveen')
+
+Tuple Indexing, Slicing as same as List
+
+Tuple Methods : count, index, etc....
+
+NOTE: for making single element tuple, it is compulsory to write comma after single element

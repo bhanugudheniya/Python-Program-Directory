@@ -1,0 +1,26 @@
+
+        0 1 2 3 4 ---> Left to Right  [size = 0 to length-1]
+        _ _ _ _ _
+name = |H|A|R|R|Y|  (length = 5)
+        - - - - -
+       -5-4-3-2-1 <--- Right to Left
+
+String : Data type in python, String is a sequence of characters enclosed in quotes.
+1. Single - '...'
+2. Double - "..."
+3. Triple - '''...'''
+
+****
+Slicing
+-------
+Syntax:
+s1 = name[index_start : index_end : step]
+
+Eg:
+s1 = name = [0:3] --> Har
+
+skip:Syntax:
+word = "amazon"
+
+Eg:
+word = [1:7:2] --> mzn
