@@ -1,0 +1,19 @@
+# A loop statement allows us to execute a statement or group of statements multiple times
+
+# Types of Loops
+-> for   : Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.
+
+    Syntax:
+
+    l = [1,2,3]
+    for i in l:
+        print(i)    #print- 1,2,3
+
+-> while : while loop is used to execute a block of statements repeatedly until a given a condition is satisfied.
+           And when the condition becomes false, the line immediately after the loop in program is executed.
+           In this, condition is checked first, if it evaluates to true, the body of the loop is executed, otherwise not.
+
+    Syntax:
+
+    while condition:
+        #Body
