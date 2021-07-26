@@ -1,0 +1,33 @@
+File : It is a data stored in a storage device. A python program can talk to the file by reading content from it and
+writing content to it.
+
+Type of file:
+1. Text file (.txt, .c, etc..)
+2. Binary File (.pg, .dat, etc..)
+
+Function : Reading, Updating, Deleting, Writing, Appending.
+
+>> Opening a file : open() --> open('file_name', 'mode')
+
+>> Reading a file : f = open('file_name', 'r')
+                    text = f.read()
+                    print(text)
+                    f.close()   #close file
+
+print no. of character --> f.read(2)
+
+readline() --> read one line from the file
+
+Modes:
+1. r  --> open for reading
+2. w  --> open for writing
+3. a  --> open for appending
+4. +  --> open for updating
+
+'rb' will open for read in binary mode
+'rt' will open for read in text mode
+
+>> With Statement : Close the file automatically
+
+    with open('file_name') as f:
+        f.read()  # don't need to write f.close(), it is done automatically
