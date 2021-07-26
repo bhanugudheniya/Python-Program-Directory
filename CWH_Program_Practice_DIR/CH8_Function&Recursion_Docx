@@ -1,0 +1,56 @@
+Function : It is a group of statement performing a specific task. A function can be reused by the programmer in a given
+program any number ot times.
+
+Ex :
+def func1():
+    print("Hello")
+
+
+Function Call : Whenever we want to call a function, we put the name of the function followed by parenthesis as follows:
+    func1()   -> function call
+
+Function Definition : The part containing the exact set of instructions which are executed during the function call.
+
+>> Type of function:
+1. Built in function : print(), range(), sum(), len(), pop(), etc...
+2. User define function : func1, or user choice..
+
+
+# Function Arguments : A function can accept some values it can work with. We can put these values in the parenthesis.
+A function can also return values as shown below:
+
+def greet(name):
+    gr = ("Hello" + name)
+    return gr
+
+a = greet("Bhanu")     --> "Bhanu" is passed to greet in name
+|-> 'a' will not contain 'Hello Bhanu'
+
+
+# Default Parameter Value : If we specify name = "Stranger" int the line containing def, this value is used when no
+argument is passed.
+Eg:
+   def greet(name="Stranger"):
+        # function body
+   greet()  -> Name will be 'stranger' in function body(default)
+   greet('bhanu')  -> Name will be 'bhanu' in function body(passed)
+
+
+# Recursion : Recursion is a function which calls itself. It is used to directly use a mathematical formula as a
+function.
+
+Eg:
+    def factorial(n):
+        if i == 0 or i == 1:        # Base condition which doesn't call the function any further
+            return 1
+        else:
+            return n * factorial(n-1)       # Function calling itself
+--- Working ---
+
+factorial(4)    # function calling
+    |
+   \ /
+ 4 * factorial(3)
+ 4 * [3 * factorial(2)]
+ 4 * 3 * [2 * factorial(1)]
+ 4 * 3 * 2 * [1] [function return]
