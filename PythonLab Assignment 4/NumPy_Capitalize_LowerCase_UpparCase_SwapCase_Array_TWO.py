@@ -1,0 +1,15 @@
+import numpy as np
+x = np.array(['MongoDB', 'Expressjs', 'Angular', 'Nodejs'], dtype= str)
+
+print("Original Array:")
+print(x)
+capitalized_case = np.char.capitalize(x)
+lower_case = np.char.lower(x)
+upper_case = np.char.upper(x)
+swap_case = np.char.swapcase(x)
+title_case = np.char.title(x)
+print("\nCapitalized: ", capitalized_case)
+print("\nLower: ", lower_case)
+print("\nUpper: ", upper_case)
+print("\nSwapcase: ", swap_case)
+print("\nTitlecase: ", title_case)
